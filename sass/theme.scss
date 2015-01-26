@@ -1,0 +1,95 @@
+body {
+	font-weight: 300;
+}
+
+h1, h2, h3,h4,h5 {
+	font-weight: 300;
+}
+
+hr {
+	border-top: 1px solid #676767;
+}
+
+.post {
+	h1, h2 {
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 1.7;
+	}
+
+	h2 {
+		font-size: 1rem;
+		font-size: 1.9rem;
+		margin-bottom: 2rem;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.post-edit {
+		margin-bottom: 15px;
+	}
+}
+
+#comments-section {
+	margin-bottom: 100px;
+}
+
+.comment {
+	
+	font-size: 18px;
+	line-height: 1.7;	
+
+	.posted-comment:first-child {
+		border-top: none;
+	}
+
+
+	.posted-comment {
+		border-top: 1px solid #A96E6E;
+		border-bottom: 1px solid #A96E6E;
+		margin-bottom: -1px;
+
+		.comment-author {
+			text-transform: capitalize;
+			margin-top: 15px;
+		}
+	}
+}
+
+#respond {
+	.comment-notes {
+		display: none;
+	}
+
+	.name-email {
+		margin-bottom: 15px;
+
+		.col-xs-6:first-child {
+			padding-right: 7px;
+		}
+
+		.col-xs-6:last-child {
+			padding-left: 7px;
+		}
+
+	}
+
+	input, textarea {
+		width: 100%;
+		background-color: #695A5A;
+		border: none;
+		padding: 8px;
+		color: #fff;
+	}
+
+	textarea {
+		margin-bottom: 7px;
+	}
+}
